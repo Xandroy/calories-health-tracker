@@ -1,0 +1,38 @@
+[
+  {
+    "id": "plan_001",
+    "date": "2026-03-27",
+    "entries": [
+      {
+        "Ingredient": {
+          "ingredient_id": "ing_002",
+          "grams": 100.0
+        }
+      },
+      {
+        "RecipePortion": {
+          "recipe_id": "rec_001",
+          "portions": 1.0
+        }
+      }
+    ]
+  },
+  {
+    "id": "plan_002",
+    "date": "2026-03-28",
+    "entries": [
+      {
+        "RecipePortion": {
+          "recipe_id": "rec_002",
+          "portions": 1.5
+        }
+      },
+      {
+        "Ingredient": {
+          "ingredient_id": "ing_004",
+          "grams": 50.0
+        }
+      }
+    ]
+  }
+]

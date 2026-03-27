@@ -1,0 +1,47 @@
+[
+  {
+    "id": "rec_001",
+    "name": "Chicken Rice Bowl",
+    "ingredients": [
+      {
+        "ingredient_id": "ing_001",
+        "grams": 200.0
+      },
+      {
+        "ingredient_id": "ing_002",
+        "grams": 150.0
+      }
+    ],
+    "servings": 2.0
+  },
+  {
+    "id": "rec_002",
+    "name": "Salmon with Rice",
+    "ingredients": [
+      {
+        "ingredient_id": "ing_003",
+        "grams": 180.0
+      },
+      {
+        "ingredient_id": "ing_002",
+        "grams": 120.0
+      }
+    ],
+    "servings": 2.0
+  },
+  {
+    "id": "rec_003",
+    "name": "Rice with Egg",
+    "ingredients": [
+      {
+        "ingredient_id": "ing_002",
+        "grams": 100.0
+      },
+      {
+        "ingredient_id": "ing_004",
+        "grams": 60.0
+      }
+    ],
+    "servings": 1.0
+  }
+]

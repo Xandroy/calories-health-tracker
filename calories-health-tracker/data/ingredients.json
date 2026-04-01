@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ing_001",
+    "name": "Chicken Breast",
+    "kcal_per_100g": 165.0,
+    "protein_per_100g": 31.0,
+    "fat_per_100g": 3.6,
+    "carbs_per_100g": 0.0,
+    "category": "Meat"
+  },
+  {
+    "id": "ing_002",
+    "name": "Rice",
+    "kcal_per_100g": 130.0,
+    "protein_per_100g": 2.7,
+    "fat_per_100g": 0.3,
+    "carbs_per_100g": 28.0,
+    "category": "Vegan"
+  },
+  {
+    "id": "ing_003",
+    "name": "Salmon",
+    "kcal_per_100g": 208.0,
+    "protein_per_100g": 20.0,
+    "fat_per_100g": 13.0,
+    "carbs_per_100g": 0.0,
+    "category": "Fish"
+  },
+  {
+    "id": "ing_004",
+    "name": "Egg",
+    "kcal_per_100g": 155.0,
+    "protein_per_100g": 13.0,
+    "fat_per_100g": 11.0,
+    "carbs_per_100g": 1.1,
+    "category": "Vegetarian"
+  }
+]

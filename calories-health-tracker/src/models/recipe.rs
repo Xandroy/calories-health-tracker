@@ -11,6 +11,5 @@ pub struct Recipe {
     pub id: String,
     pub name: String,
     pub ingredients: Vec<RecipeIngredient>,
-    pub category: FoodCategory,
     pub servings: f32,
 }

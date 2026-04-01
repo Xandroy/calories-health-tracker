@@ -4,7 +4,6 @@ pub struct DailyPlan {
     pub id: String,
     pub date: String,
     pub entries: Vec<DailyPlanEntry>,
-    pub categories: FoodCategory,
 }
 
 #[derive(Serialize, Deserialize, Debug, Clone, PartialEq)]

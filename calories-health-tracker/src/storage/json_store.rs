@@ -1,4 +1,4 @@
-use serde::de::DeserializeOwned;
+use serde::{de::DeserializeOwned, Serialize};
 use std::fs;
 use std::path::Path;
 
@@ -23,4 +23,19 @@ where
     let data = serde_json::from_str(&content)?;
 
     Ok(data)
+}
+
+pub fn write_to_file<T>(path: &str, data: &T) -> Result<(), Box<dyn std::error::Error>>
+where
+    T: Serialize,
+{
+    if let Some(parent) = Path::new(path).parent() {
+        fs::create_dir_all(parent)?;
+    }
+
+    let json = serde_json::to_string_pretty(data)?;
+
+    fs::write(path, json)?;
+
+    Ok(())
 }
